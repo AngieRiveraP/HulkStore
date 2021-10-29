@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/hulk_store/BuildConfig.java
+ com.example.hulk_store.BuildConfig

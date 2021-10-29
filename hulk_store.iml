@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Flutter_Bloc_Movie-master/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Flutter_Bloc_Movie-master/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Flutter_Bloc_Movie-master/build" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/packages/core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/packages/core/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/packages/core/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/riverpod/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/riverpod/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/riverpod/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-testing-tutorial-master/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-testing-tutorial-master/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-testing-tutorial-master/build" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/states_rebuilder/build" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/states_rebuilder/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/states_rebuilder/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/provider/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/provider/build" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/provider/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Flutter_bloc_example-master/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Flutter_bloc_example-master/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Flutter_bloc_example-master/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/flutter_bloc/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/flutter_bloc/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/movie_app_state_management_flutter-main/apps/flutter_bloc/build" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+    <orderEntry type="library" name="Flutter Plugins" level="project" />
+  </component>
+</module>
