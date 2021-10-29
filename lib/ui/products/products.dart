@@ -12,6 +12,7 @@ import 'package:hulk_store/utils/colors.dart';
 import 'package:hulk_store/utils/snack_bar.dart';
 import 'package:hulk_store/utils/strings.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:page_transition/page_transition.dart';
 
 /*
 * Page corresponding to the product list of the store
@@ -53,7 +54,11 @@ class Products extends State<ProductsPage> implements InterfaceProduct {
           visible: true,
           child: IconButton(
             onPressed: () async {
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) => ShoppingCartPage()));
+              Navigator.of(context).push(PageTransition(
+                  type: PageTransitionType.rightToLeft,
+                  curve: Curves.decelerate,
+                  duration: Duration(milliseconds: 600),
+                  child: ShoppingCartPage()));
             },
             icon: Icon(Icons.shopping_cart),
           ),
@@ -61,7 +66,11 @@ class Products extends State<ProductsPage> implements InterfaceProduct {
         actions: [
           IconButton(
             onPressed: () async {
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) => CreateProductPage(isEdit: false, product: ProductModel())));
+              Navigator.of(context).push(PageTransition(
+                  type: PageTransitionType.rightToLeft,
+                  curve: Curves.decelerate,
+                  duration: Duration(milliseconds: 600),
+                  child: CreateProductPage(isEdit: false, product: ProductModel())));
             },
             icon: Icon(Icons.add),
           ),
@@ -171,7 +180,11 @@ class Products extends State<ProductsPage> implements InterfaceProduct {
 
   @override
   void detailProduct(ProductModel product) {
-    Navigator.of(context).push(MaterialPageRoute(builder: (context) => CreateProductPage(isEdit: true, product: product)));
+    Navigator.of(context).push(PageTransition(
+        type: PageTransitionType.rightToLeft,
+        curve: Curves.decelerate,
+        duration: Duration(milliseconds: 600),
+        child: CreateProductPage(isEdit: true, product: product)));
   }
 
 }

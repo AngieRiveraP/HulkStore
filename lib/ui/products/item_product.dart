@@ -101,6 +101,36 @@ class ItemProduct extends StatelessWidget {
           ),
           InkWell(
             onTap: () => interface.detailProduct(dataProduct),
+            child: Container(
+              width: 80,
+              height: 80,
+                decoration: BoxDecoration(
+                    color: CustomColors.white,
+                    borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                    border: Border.all(width: 2, color: CustomColors.white),
+                    boxShadow: [
+                      BoxShadow(
+                        color: CustomColors.bgGray.withOpacity(0.8),
+                        spreadRadius: 1,
+                        blurRadius: 7,
+                        offset: Offset(
+                            1, 3), // changes position of shadow
+                      ),
+                    ],
+                ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.all(Radius.circular(5)),
+                child: FadeInImage.assetNetwork(
+                  width: MediaQuery.of(context).size.width,
+                  fit: BoxFit.cover,
+                  placeholder: "assets/images/ic_image.png",
+                  image:dataProduct.image,
+                ),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: () => interface.detailProduct(dataProduct),
             child:   Container(
                 width: 80,
                 height: 80,
